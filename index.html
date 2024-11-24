@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiman zehra - Web & App Developer | Frontend & Backend Solutions</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Hi, I'm Aiman zehra, a web and app developer specializing in front-end and back-end solutions. Contact me for professional websites and apps for your business.">
+    <meta name="keywords" content="Aiman zehra, web developer, app developer, front-end development, back-end development, MERN stack, web development, app development, freelance developer">
+    <meta name="author" content="Aiman Zehra">
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="Aiman zehra - Web & App Developer | Frontend & Backend Solutions">
+    <meta property="og:description" content="Hi, I'm Aiman zehra, a web and app developer specializing in front-end and back-end solutions. Contact me for professional websites and apps for your business.">
+    <meta property="og:image" content="https://media.licdn.com/dms/image/v2/D4E03AQERU1ceOr6a8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723135577891?e=1738195200&v=beta&t=9RtKkysaU-c0cZYTPdUoBFG_BKsIcVl9gQsbznHcx44">
+    <meta property="og:url" content="https://Aiman zehra-mern.netlify.app/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aiman zehra - Web & App Developer | Frontend & Backend Solutions">
+    <meta name="twitter:description" content="Hi, I'm Aiman zehra, a web and app developer specializing in front-end and back-end solutions. Contact me for professional websites and apps for your business.">
+    <meta name="twitter:image" content="https://media.licdn.com/dms/image/v2/D4E03AQERU1ceOr6a8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723135577891?e=1738195200&v=beta&t=9RtKkysaU-c0cZYTPdUoBFG_BKsIcVl9gQsbznHcx44">
+
+    <!-- Structured Data (JSON-LD) for Rich Results -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Aiman zehra",
+      "url": "",
+      "image": "https://media.licdn.com/dms/image/v2/D4E03AQERU1ceOr6a8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723135577891?e=1738195200&v=beta&t=9RtKkysaU-c0cZYTPdUoBFG_BKsIcVl9gQsbznHcx44",
+      "sameAs": [
+        "https://www.linkedin.com/in/syeda-aiman-zehra-9b38b531a/",
+        "https://www.upwork.com/freelancers/~011d901d9c78d052d1",
+        "https://www.facebook.com/aimanzehra24/",
+        "https://www.instagram.com/__.aimanzehra/"
+      ],
+      "jobTitle": "Web and App Developer",
+      "email": "mailto:zehraaah2004@gmail.com"
+    }
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KF55NXCC');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+       <!-- Google Tag Manager (noscript) -->
+       <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF55NXCC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="particles_container">
+        <canvas id="particle_canvas"></canvas>
+    <!-- updatedHero -->
+    <div id="header">
+        <div class="container nav_link_header_section  d-none d-lg-block">
+            <div class="">
+                <nav class="navbar navbar-expand text-white">
+                    <div class="container-fluid text-white">
+                        <a href="#header">
+                            <h1><span>A</span>iman.</h1>
+                        </a>
+                        <div class="text-white" id="navbarNav">
+                            <ul id="sidemenu">
+                                <li><a href="#header">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#portfolio">Project</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="container nav_link_header_section  d-lg-none">
+            <div>
+                <label for="onCanvasCustom">
+                    <img width="50" height="50" id="onCanvasImg" src="./images/list.svg" alt="menu"/>
+                </label>
+                <input type="button" id="onCanvasCustom" class="d-none" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            </div>
+    
+            <div class="offcanvas offCanvasCustom offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header mt-4">
+                    <a href="#header" class="offCanvasLogo mt-3 ms-3">
+                        <h1><span>A</span>iman.</h1>
+                    </a>
+                    <label for="offCanvasCustom">
+                        <img width="40" height="40" class="mt-2" id="" src="./images/close.svg" />
+                    </label>
+                    <input type="button" class="d-none" id="offCanvasCustom" data-bs-dismiss="offcanvas" aria-label="Close">
+                </div>
+                <div class="offcanvas-body">
+                    <ul id="offCanvasList" class="ms-3">
+                        <li><a href="#header" class="scroll-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Home</a></li>
+                        <li><a href="#about" class="scroll-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">About</a></li>
+                        <li><a href="#services" class="scroll-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Services</a></li>
+                        <li><a href="#portfolio" class="scroll-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Project</a></li>
+                        <li><a href="#contact" class="scroll-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+        <div class="d-flex heroContainer gap-5 flex-lg-row  align-items-center justify-content-between flex-column container">
+            <div class="header-text" data-aos="fade-right" data-aos-delay="300">
+                <h1>👋Hi, I'm <span> Aiman zehra</span></h1>
+                <p><span class="hiddenEmoji">👋👋</span> Web & App Developer</p>
+            </div>
+            <img  src="images/developer1.svg" id="developerLogo" alt="Aiman zehra developer logo" data-aos="fade-left"  data-aos="fade-right" data-aos-delay="700">
+    </div>
+
+    </div>
+</div>
+
+    <!-- updatedHero -->
+
+    <!--------header completed----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1ABOUT">
+                    <img src="images/me.svg" alt="preson svg">
+                </div>
+                <div class="col-2ABOUT">
+                    <h1 class="subtitle">About Me</h1>
+                    <p> I am a web & App Developer. I enjoy
+                        building websites & App for small
+                        and rich businesses. if you are
+                        a business looking for a web
+                        presence, you can get in touch
+                        with me. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End</span><br>Building professional looking Websites with Advanced Front-End
+                                Frameworks.<br>
+                                <div class="badgeContainer">
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="200">react js <img width="18" src="./images/react.png"
+                                            alt="react" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="500">mui <img width="18" src="./images/mui.png"
+                                            alt="mui" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="800">bootstrap <img width="18" src="./images/bootstrap.webp"
+                                            alt="bootstrap" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="1000">tailwind css <img width="18" src="./images/tailwind.png"
+                                            alt="tailwind" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="1300">Ant Design <img width="18" src="./images/ant-design.png"
+                                            alt="ant-design" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="1500">ionic <img width="27" src="./images/ionic.png"
+                                            alt="ionic" /></span>
+                                </div>
+                            </li>
+                            <li><span>Backend End</span><br>Building professional looking Websites with Advanced
+                                Back-End Frameworks and tools.<br>
+                                <div class="badgeContainer">
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="200">node js <img width="25"
+                                            src="https://img.icons8.com/fluency/144/node-js.png" alt="node-js" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="500">Express js <img width="18" src="./images/express.png"
+                                            alt="express" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="800">mongodb <img width="18" src="./images/leaf.png"
+                                            alt="mongodb" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="1000">slq <img width="18" src="./images/sql.png"
+                                            alt="sql" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="1300">firebase <img width="15" src="./images/firebase.png"
+                                            alt="firebase" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="1600">cloudinary <img width="16" src="./images/cloudinary.png"
+                                            alt="cloudinary" /></span>
+                                    <span class="badge badge-pill badge-dark" data-aos="fade-right"
+                                        data-aos-delay="1900">Passport js<img width="18" src="./images/passport.png"
+                                            alt="passport" /></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                         
+                            <li><span>2024 - Present </span><br>MERN Stack Developer at Markcoders PVT LTD.</li>
+                            <li><span>2022 - 2024 </span><br>React JS Developer at NOP COMMERCE PVT LTD.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Web & App Dvelopment Course</span><br>From SMIT.</li>
+                            <li><span>MERN-Stack Dvelopment Course </span><br>From Govt of Sindh.</li>
+                            <li><span>BSCS</span><br>From FUUAST.</li>
+                            <li><span>Higher Education</span><br>From PECHS College.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------about---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="services-list">
+                <div data-aos="fade-right" data-aos-delay="200">
+                    <img width="70" src="./images/react.png" alt="Front end" />
+                    <h2 style="font-weight: 700;">Frontend Solutions</h2>
+                    <p style="font-size: 15px;" id="experience"></p>
+                </div>
+
+
+
+                <div data-aos="fade-right" data-aos-delay="500">
+                    <img width="70" src="https://img.icons8.com/fluency/144/node-js.png" alt="back end" />
+                    <h2 style="font-weight: 700;">Backend Solutions</h2>
+                    <p style="font-size: 15px;">Transforming Ideas into robust backend code. Proficient in databases and
+                        server-side logic with unlimited revisions for your satisfaction.</p>
+                </div>
+
+
+
+                <div data-aos="fade-right" data-aos-delay="800">
+                    <img width="70" style="filter: invert(100%);" src="./images/moment.png" alt="clock" />
+                    <h2 style="font-weight: 700;">On Time Delivery</h2>
+                    <p style="font-size: 15px;"> I always make sure that I develivered the work before time so that our
+                        client satisfied/happier so that we can work again in future .</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!------------portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work" data-aos="fade-right" data-aos-delay="600">
+                    <img src="images/gulban.png" alt="gulban.com">
+                    <div class="layer">
+                        <p>Visit Gulban</p>
+                        <a href="https://gulban.com" target="_blank" target="_blank"><i
+                                class="fa-solid text-dark fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work" data-aos="fade-right" data-aos-delay="800">
+                    <img src="images/sauced.webp" alt="sauced app">
+                    <div class="layer">
+                        <p>Download Sauced</p>
+                        <a href="https://apps.apple.com/us/app/sauced-app/id6737129890" target="_blank" target="_blank"><i
+                                class="fa-solid text-dark fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work" data-aos="fade-right" data-aos-delay="1200">
+                    <img src="images/designtimelapse.png" alt="design Time-lapse">
+                    <div class="layer">
+                        <p>Visit Design Time-lapse</p>
+                        <a href="https://designtimelapse.com/" target="_blank" target="_blank"><i
+                                class="fa-solid text-dark fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-------------contact--------------->
+    <div id="contact">
+
+                <canvas  class="webgl"></canvas>
+        <div class="container">
+            <div class="row">
+                <div class="contact-Left" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p style="width: fit-content;"><i class="fa-solid fa-paper-plane">
+
+                    </i> 
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=zehraaah2004@gmail.com" class="text-white text-decoration-none " target="_blank">zehraaah2004@gmail.com</a>
+
+                    
+                </i> 
+                </p>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.linkedin.com/in/syeda-aiman-zehra-9b38b531a/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <!-- <a target="_blank" href="https://github.com/Aiman zehraraza1212"><i
+                                class="fa-brands fa-github"></i></a> -->
+                                <!-- changehere -->
+                        <a target="_blank" href="https://www.upwork.com/freelancers/~011d901d9c78d052d1"><i
+                                class="fa-brands fa-upwork"></i></a>
+                    </div>
+                    <!-- <a href="images\Aiman zehra-Developer-Resume-CV.pdf" class="btnCV" download>Download Resume</a> -->
+                </div>
+                <div class="contact-right">
+                    <form id="myForm" action="post" name="contact" data-aos="fade-left" data-aos-delay="600"
+                        method="POST" data-netlify="true">
+                        <input type="text" name="Name" placeholder="Your Good Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="6"></textarea>
+                        <div data-netlify-recaptcha="true"></div>
+                        <button type="submit" class="btnCV" id="formSubmit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p id="copyYear">Copyright © Aiman Zehra</p>
+        </div>
+        
+    </div>
+    <script defer type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.150.0/build/three.module.js",
+              "addons/": "https://cdn.jsdelivr.net/npm/three@0.150.0/examples/jsm/"
+          }
+        }
+      </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function closemenu() {
+            sidemenu.style.right = "-12rem";
+        }
+        function openmenu() {
+            sidemenu.style.right = "0rem";
+
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Smooth scroll to anchor links
+            $(".scroll-link").on('click', function (event) {
+                event.preventDefault();
+                var target = $(this.hash);
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 500, function () {
+                    // After scroll animation completes, manually trigger offcanvas toggle
+                    $('#offcanvasExample').offcanvas('toggle');
+                });
+            });
+        });
+    </script>
+    <script defer type="module" src="./app.js"></script>
+</body>
+
+</html>
